@@ -5,8 +5,8 @@
 CoRE Working Group                                             M. Koster
 Internet-Draft                                               SmartThings
 Intended status: Informational                        B. Silverajan, Ed.
-Expires: 14 January 2021                              Tampere University
-                                                            13 July 2020
+Expires: 16 July 2021                                 Tampere University
+                                                         12 January 2021
 
 
      Dynamic Resource Linking for Constrained RESTful Environments
@@ -41,11 +41,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 January 2021.
+   This Internet-Draft will expire on 16 July 2021.
 
 Copyright Notice
 
-   Copyright (c) 2020 IETF Trust and the persons identified as the
+   Copyright (c) 2021 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 1]
+Koster & Silverajan       Expires 16 July 2021                  [Page 1]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -103,15 +103,15 @@ Table of Contents
      12.1.  Normative References . . . . . . . . . . . . . . . . . .  19
      12.2.  Informative References . . . . . . . . . . . . . . . . .  20
    Appendix A.  Examples . . . . . . . . . . . . . . . . . . . . . .  20
-     A.1.  Minimum Period (pmin) example . . . . . . . . . . . . . .  20
+     A.1.  Minimum Period (pmin) example . . . . . . . . . . . . . .  21
      A.2.  Maximum Period (pmax) example . . . . . . . . . . . . . .  21
      A.3.  Greater Than (gt) example . . . . . . . . . . . . . . . .  23
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 2]
+Koster & Silverajan       Expires 16 July 2021                  [Page 2]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
      A.4.  Greater Than (gt) and Period Max (pmax) example . . . . .  23
@@ -165,9 +165,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 3]
+Koster & Silverajan       Expires 16 July 2021                  [Page 3]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
       sychronization.  The value range may be bounded by a minimum and
@@ -221,9 +221,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 4]
+Koster & Silverajan       Expires 16 July 2021                  [Page 4]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    One or more Control Attributes MAY be included as query parameters in
@@ -277,9 +277,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 5]
+Koster & Silverajan       Expires 16 July 2021                  [Page 5]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    Note: Due to finite quantization effects, the time between
@@ -333,9 +333,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 6]
+Koster & Silverajan       Expires 16 July 2021                  [Page 6]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    The Greater Than parameter can only be supported on resources with a
@@ -389,9 +389,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 7]
+Koster & Silverajan       Expires 16 July 2021                  [Page 7]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    When band is present with the gt attribute, it defines the upper
@@ -445,9 +445,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 8]
+Koster & Silverajan       Expires 16 July 2021                  [Page 8]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    parameter (if present) otherwise the receiver MUST return a CoAP
@@ -501,9 +501,9 @@ bool notifiable( Resource * r ) {
 
 
 
-Koster & Silverajan      Expires 14 January 2021                [Page 9]
+Koster & Silverajan       Expires 16 July 2021                  [Page 9]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
 4.  Link Bindings
@@ -557,9 +557,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 10]
+Koster & Silverajan       Expires 16 July 2021                 [Page 10]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
                 +================+===========+===========+
@@ -613,9 +613,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 11]
+Koster & Silverajan       Expires 16 July 2021                 [Page 11]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
 4.1.1.  Polling
@@ -669,9 +669,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 12]
+Koster & Silverajan       Expires 16 July 2021                 [Page 12]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    for the source resource.  The source endpoint SHOULD only send a
@@ -725,9 +725,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 13]
+Koster & Silverajan       Expires 16 July 2021                 [Page 13]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    Req: GET /.well-known/core?rt=core.bnd (application/link-format)
@@ -781,9 +781,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 14]
+Koster & Silverajan       Expires 16 July 2021                 [Page 14]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    The initiation of a Link Binding can be delegated from a client to a
@@ -837,9 +837,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 15]
+Koster & Silverajan       Expires 16 July 2021                 [Page 15]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    Description:  The purpose of a boundto relation type is to indicate
@@ -866,7 +866,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
    draft -06.  Hannes Tschofenig and Mert Ocak highlighted syntactical
    corrections in the usage of pmax and pmin in a query.  Discussions
    with Ari Keraenen led to the addition of an extra binding method
-   supporting POST operations.
+   supporting POST operations.  Alan Soloway contributed text leading to
+   the inclusion of epmin and epmax.  David Navarro proposed allowing
+   for pmax to be equal to pmin.
 
 10.  Contributors
 
@@ -891,11 +893,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 16]
+Koster & Silverajan       Expires 16 July 2021                 [Page 16]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
    Christian Groves
@@ -924,6 +924,12 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 11.  Changelog
 
+   draft-ietf-core-dynlink-12
+
+   *  Attributes epmin and epmax included
+
+   *  pmax now can be equal to pmin
+
    draft-ietf-core-dynlink-11
 
    *  Updates to author list
@@ -940,19 +946,20 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
    *  Clarifications for additional operations to binding table added in
       section 5
 
+
+
+
+Koster & Silverajan       Expires 16 July 2021                 [Page 17]
+
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
+
+
    *  Additional examples in Appendix A
 
    draft-ietf-core-dynlink-08
 
    *  Reorganize the draft to introduce Conditional Notification
       Attributes at the beginning
-
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 17]
-
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
-
 
    *  Made pmin and pmax type xs:decimal to accommodate fractional
       second timing
@@ -995,6 +1002,14 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
    draft-ietf-core-dynlink-02
 
+
+
+
+Koster & Silverajan       Expires 16 July 2021                 [Page 18]
+
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
+
+
    *  General: Changed the name of the greater than attribute "gt" to
       "gth" and the name of the less than attribute "lt" to "lth" due to
       conlict with the core resource directory draft lifetime "lt"
@@ -1002,13 +1017,6 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
    *  Clause 6.1: Addressed the editor's note by changing the link
       target attribute to "core.binding".
-
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 18]
-
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
-
 
    *  Added Appendix A for examples.
 
@@ -1051,20 +1059,17 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 12.1.  Normative References
 
+
+
+Koster & Silverajan       Expires 16 July 2021                 [Page 19]
+
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
+
+
    [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
               Requirement Levels", BCP 14, RFC 2119,
               DOI 10.17487/RFC2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
-
-
-
-
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 19]
-
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
-
 
    [RFC6690]  Shelby, Z., "Constrained RESTful Environments (CoRE) Link
               Format", RFC 6690, DOI 10.17487/RFC6690, August 2012,
@@ -1110,17 +1115,14 @@ Appendix A.  Examples
    Note: For brevity the only the method or response code is shown in
    the header field.
 
-A.1.  Minimum Period (pmin) example
 
 
-
-
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 20]
+Koster & Silverajan       Expires 16 July 2021                 [Page 20]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
+
+A.1.  Minimum Period (pmin) example
 
            Observed   CLIENT  SERVER     Actual
        t   State         |      |         State
@@ -1171,11 +1173,9 @@ A.2.  Maximum Period (pmax) example
 
 
 
-
-
-Koster & Silverajan      Expires 14 January 2021               [Page 21]
+Koster & Silverajan       Expires 16 July 2021                 [Page 21]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
            Observed   CLIENT  SERVER     Actual
@@ -1229,9 +1229,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 22]
+Koster & Silverajan       Expires 16 July 2021                 [Page 22]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
       Figure 4: Client registers and receives one notification of the
@@ -1285,9 +1285,9 @@ A.4.  Greater Than (gt) and Period Max (pmax) example
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 23]
+Koster & Silverajan       Expires 16 July 2021                 [Page 23]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
         Observed   CLIENT  SERVER     Actual
@@ -1341,9 +1341,9 @@ Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 24]
+Koster & Silverajan       Expires 16 July 2021                 [Page 24]
 
-Internet-Draft      Dynamic Resource Linking for CoRE          July 2020
+Internet-Draft      Dynamic Resource Linking for CoRE       January 2021
 
 
       Figure 6: Client registers and receives one notification of the
@@ -1397,4 +1397,4 @@ Authors' Addresses
 
 
 
-Koster & Silverajan      Expires 14 January 2021               [Page 25]
+Koster & Silverajan       Expires 16 July 2021                 [Page 25]
